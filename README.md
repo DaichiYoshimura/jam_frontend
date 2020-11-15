@@ -1,5 +1,3 @@
-# 環境構築
-
 ## Typescript
 
 ```
@@ -9,7 +7,7 @@ tsc --init
 
 ## Next.js
 
-package.jsonを作成
+package.json
 
 ```
 {
@@ -33,12 +31,12 @@ package.jsonを作成
     }
 }
 ```
-パッケージのインストール
+install package
 ```
 yarn add next react react-dom
 ```
 
-必要なディレクトリ構成とファイルを整える。
+create directory and files.
 
 ```
     mkdir pages
@@ -48,7 +46,7 @@ yarn add next react react-dom
     touch .babelrc next.config.js
 ```
 
-tsconfig.jsonを編集
+edit tsconfig.json.
 
 ```
 {
@@ -72,12 +70,6 @@ tsconfig.jsonを編集
     }
 }
 ```
-
-ルーティングの基本
-
-pagesディレクトリ配下の構造が自動的にディレクトリ構造になる。
-_app.tsx/_document/.tsx/_error.tsx は重要なファイルなので安易に触らない。
-pages/apiディレクトリはapiを呼び出すための特別なディレクトリ（ディレクトリ名「api」は変更しない。
 
 
 
