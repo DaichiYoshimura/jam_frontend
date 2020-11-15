@@ -1,0 +1,11 @@
+{
+  "name": "jam-session-management-service",
+  "short_name": "jsms",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/pwa",
+  "icons": null,
+  "splash_pages": null
+}
